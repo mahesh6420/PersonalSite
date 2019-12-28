@@ -1,0 +1,19 @@
+:host{
+    min-height: 100%;
+    max-width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.body-content p {
+    font-size: 32px;
+    transition: 0.3s;
+    &:hover{
+        cursor: pointer;
+        font-size: 32px;
+        background: -webkit-linear-gradient(red, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: 0.3s;
+    }
+}
