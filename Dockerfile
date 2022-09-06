@@ -15,5 +15,4 @@ RUN npm install
 EXPOSE 4200
 
 # Start your application
-# Start your application
 CMD ["npm", "start"]

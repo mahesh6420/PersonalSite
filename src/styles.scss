@@ -28,6 +28,10 @@ body{
     .m-t-#{ $i } {
         margin-top: #{$i} + px;
     }
+    .m-t-#{ $i }vh{
+        margin-top: #{$i} + vh;
+    }
+
     .m-b-#{ $i } {
         margin-bottom: #{$i} + px;
     }
@@ -69,5 +73,10 @@ body{
     .w-#{$i}pct{
         width: #{$i} + '%';
     }
+}
 
+@for $i from 1 through 100 {
+    .f-size-#{$i}{
+        font-size: #{$i} + px;
+    }
 }
